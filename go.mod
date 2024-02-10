@@ -1,3 +1,3 @@
-module github.com/merlinz01/goloki/v0.0.0
+module github.com/merlinz01/goloki
 
 go 1.19
