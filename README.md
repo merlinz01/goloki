@@ -1,5 +1,7 @@
 # GoLoki
 
+> Warning: This library has not even been proven to work correctly and is not being maintained. Use at your own risk.
+
 GoLoki is a Go library that allows programs to send log messages to Loki, a component of Grafana. Log messages are sent as [JSON data in HTTP POST requests](https://github.com/grafana/loki/blob/main/docs/sources/reference/api.md#ingest-logs). Logs may include structured metadata which is all metadata that does not match a key in `logger.MetadataLabels`.
 
 ## Usage
